@@ -1,1 +1,17 @@
+# Data
 
+Market data is downloaded dynamically using Yahoo Finance through the `yfinance` Python package.
+
+No proprietary or confidential market data is included in this repository.
+
+The default experiment uses:
+
+Symbol:
+
+SPY
+
+Period:
+
+2018-01-01 to 2026-01-01
+
+For reproducibility, the data source and experiment parameters are defined directly in the Python code.
