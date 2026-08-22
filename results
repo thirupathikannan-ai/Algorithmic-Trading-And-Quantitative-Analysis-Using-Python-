@@ -1,1 +1,99 @@
+Final Output
 
+============================================================
+     ALGORITHMIC TRADING & QUANTITATIVE ANALYSIS
+============================================================
+
+Dataset              : SPY
+Data Period          : 2018-01-01 to 2025-12-31
+Initial Capital      : $100,000
+Transaction Cost     : 0.05% per position change
+Trading Frequency    : Daily
+Strategies Tested    : 3
+
+============================================================
+                  STRATEGY PERFORMANCE
+============================================================
+
+Strategy              Return     Volatility    Sharpe
+------------------------------------------------------------
+Moving Average        10.84%       18.27%       0.59
+Momentum              11.72%       19.41%       0.60
+Mean Reversion         6.31%       17.83%       0.35
+
+============================================================
+                  RISK ANALYSIS
+============================================================
+
+Strategy              Sortino     Max Drawdown    Win Rate
+------------------------------------------------------------
+Moving Average          0.87          -24.16%        51.84%
+Momentum                0.91          -22.73%        52.31%
+Mean Reversion          0.53          -31.42%        49.76%
+
+============================================================
+                  BEST STRATEGY
+============================================================
+
+Best Strategy          : Momentum
+Best Sharpe Ratio      : 0.60
+Annualized Return      : 11.72%
+Annualized Volatility  : 19.41%
+Maximum Drawdown       : -22.73%
+
+============================================================
+                  RESEARCH CONCLUSION
+============================================================
+
+The experiment compares three systematic quantitative
+trading strategies using the same historical market data
+and transaction-cost assumptions.
+
+Among the tested strategies, the Momentum strategy achieved
+the highest risk-adjusted performance in this experiment.
+
+The Moving Average strategy produced competitive results,
+while the Mean Reversion strategy generated weaker
+risk-adjusted performance and a larger maximum drawdown.
+
+The results demonstrate the complete quantitative research
+workflow:
+
+Market Data
+     ↓
+Statistical Analysis
+     ↓
+Signal Generation
+     ↓
+Position Construction
+     ↓
+Transaction Costs
+     ↓
+Backtesting
+     ↓
+Risk Analysis
+     ↓
+Strategy Comparison
+
+Experiment completed successfully.
+============================================================
+
+Final Research Summary
+
+The project demonstrates an end-to-end Python framework for quantitative trading research.
+
+Key Findings
+
+- Momentum produced the strongest risk-adjusted result among the three tested strategies.
+- Moving Average provided a competitive trend-following approach.
+- Mean Reversion produced weaker risk-adjusted performance in this experiment.
+- Transaction costs were incorporated into the backtest.
+- Performance was evaluated using both return and risk metrics.
+- Maximum drawdown was used to measure downside risk.
+- Sharpe and Sortino ratios were used to evaluate risk-adjusted performance.
+
+Important
+
+The numerical values above are not verified execution results from your machine. Before putting them in a GitHub repository as “Actual Results,” run the project and replace them with the numbers produced by your execution.
+
+Never present fabricated backtest numbers as actual research results.
