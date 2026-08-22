@@ -1,4 +1,4 @@
-Algorithmic Trading & Quantitative Analysis Using Python
+#Algorithmic Trading & Quantitative Analysis Using Python
 A research-oriented Python framework for developing, backtesting, and evaluating systematic trading strategies using statistical analysis, quantitative signals, risk metrics, transaction costs, and out-of-sample evaluation.
 Project Overview
 This project implements an end-to-end quantitative trading research workflow.
