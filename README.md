@@ -155,21 +155,11 @@ Algorithmic-Trading-Quantitative-Analysis-Python/
 
     How to Run
 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/Algorithmic-Trading-Quantitative-Analysis-Python.git
+git clone:
+https://github.com/thirupathikannan-ai/Algorithmic-Trading-And-Quantitative-Analysis-Using-Python-.git
 
 cd Algorithmic-Trading-Quantitative-Analysis-Python
-2. Create a virtual environment
-python -m venv .venv
-Windows:
-.venv\Scripts\activate
-Linux/macOS:
-source .venv/bin/activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Run the experiment
-python main.py
-5. Run tests
-pytest
+
 Final Output
 ============================================================
      ALGORITHMIC TRADING & QUANTITATIVE ANALYSIS
